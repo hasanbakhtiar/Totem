@@ -1,0 +1,23 @@
+h1{
+    /* My text property */
+    color: red;
+    /* background-color: green; */
+    font-size: 50px;
+    /* 1rem and 1em = 16px; */
+    /* font-size: 10em; */
+
+}
+
+p{
+    color: #eee;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* letter-spacing: 10px;
+    line-height: 30px; */
+    text-transform: capitalize;
+    /* text-decoration: underline; */
+
+
+}

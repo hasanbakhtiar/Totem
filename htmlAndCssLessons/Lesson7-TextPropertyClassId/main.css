@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(0, 0, 0, .3);
+}
+#text-one{
+    color: red;
+}
+.mytext{
+    color: green;
+}
+.textTwo{
+    text-align: justify;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.box h1{
+    color: #fff;
+}
+
+.textOne{
+    text-align: center;
+}
