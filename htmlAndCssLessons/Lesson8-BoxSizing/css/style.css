@@ -1,0 +1,46 @@
+@import url('reset.css');
+
+/* Reset End */
+
+/* 
+body,*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0px;
+} */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* margin-top: 10px;
+    margin-left: 100px;
+    margin-right:200px;
+    margin-bottom: 30px; */
+    /* margin: 10px 50px 0px  100px; */
+    /* margin: 10px 20px 50px 100px; */
+    /* margin: 10px; */
+        /* padding-top: 10px;
+    padding-left: 100px;
+    padding-right:200px;
+    padding-bottom: 30px; */
+    /* padding: 10px 50px 0px  100px; */
+    /* padding: 10px 20px 50px 100px; */
+    /* padding: 20px;
+    border-top: 10px ;
+    border-color: green;
+    border-style: solid; */
+    /* display: inline-block; */
+}
+
+/* span{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+} */
+
+
+/* display */
+/* block -> elemntlər hündürlük və en qəbul edərək bütün sətri tutur */
+/* inline -> elemntlər hündürlük və en qəbul etmir bu səbəbdəndə bütün sətri tuturmur */
+/* inline-block -> elemntlər hündürlük və en qəbul edir amma bütün sətri tuturmur */
