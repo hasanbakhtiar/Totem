@@ -1,0 +1,38 @@
+ul li {
+  -webkit-transition: width 2s, height 3s,  background-color 1s;
+  transition: width 2s, height 3s,  background-color 1s;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  margin: 10px;
+}
+
+ul li:hover {
+  width: 500px;
+  height: 200px;
+  background-color: #9cdf00;
+}
+
+ul li a {
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  color: red;
+}
+
+ul li a:hover {
+  color: green;
+}
+
+.box {
+  overflow-y: scroll;
+  width: 500px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.box p {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,45 @@
+ul{
+    li{
+        transition: width 2s, height 3s,  background-color 1s;
+        transition-delay: 1s;
+        // transition-property: width;
+        // transition-duration: 2s;
+        // transition-timing-function: linear;
+        // transition-delay: 1s;
+      
+        width: 100px;
+        height: 100px;
+        background-color: hotpink;
+        margin: 10px;
+        // #div1 {transition-timing-function: linear;}
+        // #div2 {transition-timing-function: ease;}
+        // #div3 {transition-timing-function: ease-in;}
+        // #div4 {transition-timing-function: ease-out;}
+        // #div5 {transition-timing-function: ease-in-out;}
+        &:hover{
+            width: 500px;
+            height: 200px;
+            background-color: rgb(156, 223, 0);
+        }
+        a{
+            transition: color 1s;
+            color: red;
+            &:hover{
+                color: green;
+
+            }
+        }
+    }
+}
+
+.box{
+    overflow-y: scroll;
+    width: 500px;
+    height: 200px;
+
+    border: 1px solid #000;
+    p{
+        text-align: center;
+    }
+}
+
