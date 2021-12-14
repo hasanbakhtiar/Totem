@@ -1,0 +1,83 @@
+
+// // body{
+// //     margin: 0;
+// //     padding: 0;
+// //     box-sizing: border-box;
+// //     height: 200vh;
+// //     // display: flex;
+// //     // align-items: center;
+// //     // justify-content: center;
+    
+// // }
+// // .box{
+// //     width: 100%;
+// //     height: 400px;
+// //     background-image: url('../img/img1.jpg');
+// //     background-size: cover;
+// //     background-attachment: fixed;
+// //         display: flex;
+// //     align-items: center;
+// //     justify-content: center;
+// //     .new-box{
+// //         width: 500px;
+// //         height: 100px;
+// //         background-color: red;
+// //     }
+// //     // background-color: #345;
+
+// //     // transform: translateX(200px);
+// //     // transform: translateY(200px);
+// //     // transform: translate(100px,300px);
+// //     // transform: rotate(20deg);
+// //     // transform: scaleX(2);
+// //     // transform: scaleY(2);
+// //     // transform: scale(2);
+// //     // transform: skewY(20deg);
+// //     // transform: skewX(20deg);
+// //     // transform: skew(20deg);
+// //     // matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())
+// //     // transform: matrix(1, -0.3, 0, 1, 100, 220);
+
+
+// // }
+
+
+// .box-one{
+//     width: 100px;
+//     height: 100px;
+//     background-color: green;
+//         &::after{
+//             content: "Hello";
+//         }
+// }
+
+// span{
+//     &::before{
+//         content: "Front";
+//     }
+// }
+
+.box-second{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    // animation-name: eloset ;
+    // animation-iteration-count: infinite;
+    // animation-duration: 4s;
+    animation: eloset 10s infinite ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+@keyframes eloset{
+    // from{left:0px;}
+    // to{left: 500px;}
+    0%{left:0;top: 0; background-color: hotpink;transform: rotate(200deg);}
+    25%{left:500px;top: 0; background-color: rgb(105, 238, 255); border-radius: 50%; }
+    50%{left:500px;top: 500px; background-color: rgb(28, 0, 189); }
+    75%{left:0px;top: 500px; background-color: rgb(178, 255, 105); }
+    100%{left:0px;top: 0px; background-color: rgb(187, 255, 0); transform: scale(.5); }
+}

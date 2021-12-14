@@ -1,0 +1,85 @@
+.box-second {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-animation: eloset 10s infinite;
+          animation: eloset 10s infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+@-webkit-keyframes eloset {
+  0% {
+    left: 0;
+    top: 0;
+    background-color: hotpink;
+    -webkit-transform: rotate(200deg);
+            transform: rotate(200deg);
+  }
+  25% {
+    left: 500px;
+    top: 0;
+    background-color: #69eeff;
+    border-radius: 50%;
+  }
+  50% {
+    left: 500px;
+    top: 500px;
+    background-color: #1c00bd;
+  }
+  75% {
+    left: 0px;
+    top: 500px;
+    background-color: #b2ff69;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    background-color: #bbff00;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@keyframes eloset {
+  0% {
+    left: 0;
+    top: 0;
+    background-color: hotpink;
+    -webkit-transform: rotate(200deg);
+            transform: rotate(200deg);
+  }
+  25% {
+    left: 500px;
+    top: 0;
+    background-color: #69eeff;
+    border-radius: 50%;
+  }
+  50% {
+    left: 500px;
+    top: 500px;
+    background-color: #1c00bd;
+  }
+  75% {
+    left: 0px;
+    top: 500px;
+    background-color: #b2ff69;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    background-color: #bbff00;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+/*# sourceMappingURL=style.css.map */
