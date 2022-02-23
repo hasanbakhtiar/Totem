@@ -1,0 +1,18 @@
+<Car>
+<Count id="1">
+<brand>Mercedes</brand>
+<color>white</color>
+<engine>v5</engine>
+<model>S500</model>
+<doorStyle>4</doorStyle>
+</Count>
+
+<Count id="2">
+<brand>Mercedes</brand>
+<color>white</color>
+<engine>v5</engine>
+<model>S500</model>
+<doorStyle>4</doorStyle>
+</Count>
+
+</Car>
