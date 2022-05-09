@@ -12,7 +12,8 @@ export const addBlog = ({ title = "", description = "" }) => ({
 export const removeBlog = ({id})=>({
     type:"REMOVE_BLOG",
     id:id
-})
+  }
+  )
 
 export const blogEdit =(id,update)=>({
     type: "EDIT_BLOG",

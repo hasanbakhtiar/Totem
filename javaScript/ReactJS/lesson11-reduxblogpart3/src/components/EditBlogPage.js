@@ -11,7 +11,7 @@ const EditBlogPage = (props) => {
    
       />
       <button onClick={()=>{
-          props.dispatch(removeBlog(props.blog.id))
+          props.dispatch(removeBlog({id:props.blog.id}))
           props.history.push('/blog')
       }}>Delete</button>
     </div>
